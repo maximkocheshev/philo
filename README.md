@@ -1,5 +1,5 @@
 # Philosophers
-### ***The specific rules for the mandatory part are:***
+### ***The specific rules for the mandatory part:***
 • Each philosopher should be a ***thread***.
 
 • One fork between each philosopher, therefore if they are multiple philosophers, there will be a fork at the right and the left of each philosopher.
