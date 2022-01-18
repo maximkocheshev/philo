@@ -1,5 +1,5 @@
 # Philosophers
-### ***The specific rules for the mandatory part:***
+### ***The specific rules for the mandatory part are:***
 • Each philosopher should be a ***thread***.
 
 • One fork between each philosopher, therefore if they are multiple philosophers, there will be a fork at the right and the left of each philosopher.
@@ -37,7 +37,17 @@ $> ./philo 5 800 200 200 1
 603 5 is thinking
 603 All philosophers eat at least 1 times!
 ```
->Random values.
+>The program should take the following arguments: 
+>
+>• number_of_philosophers: is the number of philosophers and also the number of forks.
+>
+>• time_to_die: is in milliseconds, if a philosopher doesn’t start eating ’time_to_die’ milliseconds after starting their last meal or the beginning of the simulation, it dies.
+>
+>• time_to_eat: is in milliseconds and is the time it takes for a philosopher to eat. During that time they will need to keep the two forks.
+>
+>• time_to_sleep: is in milliseconds and is the time the philosopher will spend sleeping.
+>
+>• number_of_times_each_philosopher_must_eat: argument is optional, if all philosophers eat at least ’number_of_times_each_philosopher_must_eat’ the simulation will stop. If not specified, the simulation will stop only at the death of a philosopher.
 ### ***The specific rules for the bonus part are:***
 • All the forks are in the middle of the table.
 
@@ -77,3 +87,4 @@ $> ./philo_bonus 5 800 200 200 1
 600 5 is sleeping
 600 All philosophers eat 1 times!
 ```
+>Random values.
