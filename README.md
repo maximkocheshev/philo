@@ -78,4 +78,3 @@ $> ./philo_bonus 5 800 200 200 1
 600 5 is sleeping
 600 All philosophers eat 1 times!
 ```
->Random values.
