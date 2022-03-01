@@ -1,9 +1,9 @@
 # Philosophers
-### ***The specific rules for the mandatory part are:***
+### The specific rules for the mandatory part:
 - Each philosopher should be a ***thread***.
 - One fork between each philosopher, therefore if they are multiple philosophers, there will be a fork at the right and the left of each philosopher.
 - To avoid philosophers duplicating forks, you should protect the forks state with a ***mutex*** for each of them.
-### ***Run:***
+### Run:
 ```
 $> make
 $> ./philo 5 800 200 200 1
@@ -41,7 +41,7 @@ $> ./philo 5 800 200 200 1
 >- time_to_eat: is in milliseconds and is the time it takes for a philosopher to eat. During that time they will need to keep the two forks (> 60 ms).
 >- time_to_sleep: is in milliseconds and is the time the philosopher will spend sleeping (> 60 ms).
 >- number_of_times_each_philosopher_must_eat: argument is optional, if all philosophers eat at least ’number_of_times_each_philosopher_must_eat’ the simulation will stop. If not specified, the simulation will stop only at the death of a philosopher.
-### ***The specific rules for the bonus part are:***
+### The specific rules for the bonus part:
 - All the forks are in the middle of the table.
 - They have no states in memory but the number of available forks is represented by a ***semaphore***.
 - Each philosopher should be a ***process*** and the main process should not be a philosopher.
